@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start:storybook": "npm run docs:json && start-storybook -p 6006",
+    "start": "npm run docs:json && start-storybook -p 6006",
     "build:storybook": "npm run docs:json && build-storybook",
     "build:example-lib": "ng build example-lib",
     "test:example-lib": "ng test example-lib",
