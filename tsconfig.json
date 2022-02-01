@@ -9,7 +9,8 @@
       "example-lib": [
         "dist/example-lib/example-lib",
         "dist/example-lib"
-      ]
+      ],
+      "@example-lib": ["projects/example-lib/src/public-api.ts"]
     },
     "strict": true,
     "noImplicitOverride": true,
