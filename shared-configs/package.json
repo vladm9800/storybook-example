@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-ngrx": "^1.46.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-rxjs": "^4.0.2",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "description": "Package with shared configurations for eslint, stylelint and prettier",
+  "files": [
+    "eslint/*",
+    "stylelint.config.js",
+    "prettier.config.js",
+    "eslint.config.js"
+  ],
+  "name": "@gs/shared-configs",
+  "scripts": {
+  },
+  "version": "1.1.1"
+}
