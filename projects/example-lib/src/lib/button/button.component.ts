@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from 
   selector: 'my-lib-button',
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ButtonComponent {
   /**
@@ -16,9 +16,8 @@ export class ButtonComponent {
   label = 'Button';
 
   /**
-   * Optional click handler
+   * Optional pushButton handler
    */
   @Output()
-  onClick = new EventEmitter<Event>();
-
+  pushButton = new EventEmitter<Event>();
 }

@@ -1,0 +1,1 @@
+Package with shared configurations for eslint, stylelint and so on.

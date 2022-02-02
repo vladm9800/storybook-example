@@ -15,7 +15,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "my",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -103,6 +103,15 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     },
@@ -134,9 +143,21 @@
             "tsConfig": "projects/example-lib/tsconfig.spec.json",
             "karmaConfig": "projects/example-lib/karma.conf.js"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/example-lib/**/*.ts",
+              "projects/example-lib/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "story-book-example"
+  "defaultProject": "story-book-example",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
