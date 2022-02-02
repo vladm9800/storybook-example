@@ -1,11 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'button-example',
-  template: `<gs-lib-button [label]="buttonLabel"></gs-lib-button>`,
-  styleUrls: ['./button-example.component.css'],
+  selector: 'my-button-example',
+  template: `<my-lib-button [label]="buttonLabel"></my-lib-button>`,
+  styleUrls: ['./button-example.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ButtonExampleComponent {
-  public buttonLabel: string = 'Example Label';
+  public buttonLabel = 'Example Label';
 }

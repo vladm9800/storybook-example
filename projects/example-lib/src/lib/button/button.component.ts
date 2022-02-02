@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from 
 @Component({
   selector: 'my-lib-button',
   templateUrl: './button.component.html',
-  styleUrls: ['./button.component.css'],
+  styleUrls: ['./button.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ButtonComponent {
