@@ -8,7 +8,7 @@
     "build:example-lib": "ng build example-lib",
     "test:example-lib": "ng test example-lib",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
-    "lint": "ng run lint:code && npm run lint:styles",
+    "lint": "npm run lint:code && npm run lint:styles",
     "lint:code": "ng lint example-lib",
     "lint:styles": "stylelint projects/**/*.{css,scss}"
   },

@@ -17,7 +17,7 @@ module.exports = {
       'error',
       {
         type: 'attribute',
-        prefix: 'gs',
+        prefix: 'my',
         style: 'camelCase',
       },
     ],
@@ -25,7 +25,7 @@ module.exports = {
       'error',
       {
         type: 'element',
-        prefix: 'gs',
+        prefix: 'my',
         style: 'kebab-case',
       },
     ],
@@ -35,14 +35,14 @@ module.exports = {
     '@angular-eslint/use-component-view-encapsulation': 'warn',
     'ngrx/no-store-subscription': 'off',
     'ngrx/on-function-explicit-return-type': 'off',
-    'ngrx/prefix-selectors-with-select': 'off'
+    'ngrx/prefix-selectors-with-select': 'off',
   },
   overrides: [
     {
-      "files": ["**/*.effects.ts"],
-      "rules": {
+      files: ['**/*.effects.ts'],
+      rules: {
         '@angular-eslint/use-injectable-provided-in': 'off',
-      }
-    }
-  ]
+      },
+    },
+  ],
 };

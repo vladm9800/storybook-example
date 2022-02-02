@@ -18,7 +18,7 @@
     "prettier.config.js",
     "eslint.config.js"
   ],
-  "name": "@gs/shared-configs",
+  "name": "shared-configs",
   "scripts": {
   },
   "version": "1.1.1"
